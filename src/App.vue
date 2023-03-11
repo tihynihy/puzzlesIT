@@ -1,16 +1,14 @@
 <template>
-  <RegisterView />
+  <LoginView />
 </template>
 
 <script>
 //import 
-import RegisterView from "./components/RegisterView.vue"
+import LoginView from './components/LoginView.vue';
+
 export default {
-  name: 'App',
-  components: {
-    //component
-    RegisterView
-  }
+  name: "App",
+  components: { LoginView }
 }
 </script>
 

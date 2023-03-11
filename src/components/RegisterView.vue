@@ -5,11 +5,11 @@
                 <h1>Registration</h1>
             </div>
         </div>
-        <div id="login">
+        <div id="register">
             <div id="img-side">
                 <img src="../assets/poster.png" alt="">
             </div>
-            <div id="login-field">
+            <div id="reg-field">
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Surname">
                 <input type="text" placeholder="Email">
@@ -60,7 +60,7 @@ export default {
     height: 100%;
 }
 
-#login {
+#register {
     margin-top: 50px;
     border: 1px solid black;
     border-radius: 25px;
@@ -84,7 +84,7 @@ export default {
     border-radius: 25px;
 }
 
-#login-field {
+#reg-field {
     gap: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -93,7 +93,7 @@ export default {
     flex-direction: column;
 }
 
-#login-field input {
+#reg-field input {
     width: 300px;
     border-radius: 10px;
     height: 30px;
